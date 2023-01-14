@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Image Gallery</title>
+</head>
+
+<body>
+    <div class="flex m-0 justify-center min-h-screen bg-blue-100">
+        <div class="flex flex-col items-center mt-8 w-11/12 bg-white shadow-lg rounded-lg mx-4 my-2">
+            <div class="flex flex-col w-9/12 items-center mt-4 md:mt-20">
+                
+                <!-- Navigation -->
+                <nav class="md:self-end">
+                    <ul class="flex flex-wrap justify-center gap-7 ">
+                        <li class="group hover:cursor-pointer">
+                            <a>Vector</a>
+                            <div class="mt-2 mx-2 border-b-2 border-black duration-500 opacity-0 group-hover:opacity-100"></div>
+                        </li>
+                        <li class="group hover:cursor-pointer">
+                            <a>Illustrations</a>
+                            <div class="mt-2 mx-2 border-b-2 border-black duration-500 opacity-0 group-hover:opacity-100"></div>
+                        </li>
+                        <li class="group hover:cursor-pointer">
+                            <a>Images</a>
+                            <div class="mt-2 mx-2 border-b-2 border-black duration-500 opacity-0 group-hover:opacity-100"></div>
+                        </li>
+                        <li class="group hover:cursor-pointer">
+                            <a>Icons</a>
+                            <div class="mt-2 mx-2 border-b-2 border-black duration-500 opacity-0 group-hover:opacity-100"></div>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- User Input Section -->
+                <section class="md:w-full md:self-start md:mt-14">
+                    <div class="flex flex-col items-center flex-wrap md:flex-row md:justify-between">
+                        <div class="flex border shrink-[4]  max-w-[250px] px-1.5 rounded-md shadow-md ">
+                            <input class="py-1 focus:outline-none" type="text" placeholder="Search" />
+                            <img class="max-w-[20px] cursor-pointer" src="./images/searchIcon.svg" alt="">
+                        </div>
+
+                        <div class="mt-5 md:mt-0 shadow-lg">
+                            <a class="py-2 px-7 border-2 border-black bg-black text-white rounded-lg hover:duration-100 hover:bg-white hover:text-black" href="">Upload</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Gallery -->
+                <section class="w-full flex justify-center mt-8 mb-4 gap-2 flex-wrap">
+                    <!-- Image-1 -->
+                    <div class="group w-48 grow relative hover:cursor-pointer">
+                        <img src="./images/image1.jpg" alt="" />
+                        
+                        <div class="flex justify-around bg-black/40 text-white duration-300 ease-in text-xs py-2 absolute bottom-0 left-0 right-0 opacity-0 group-hover:opacity-100">
+                            <div>
+                                <h3>Abstract Painting</h3>
+                                <span>245 Likes</span> . <span>35 shares</span>
+                            </div>
+                            <img src="./images/bookmark.svg" alt="">
+                        </div>
+                    </div>
+                    
+                    <!-- Image-2 -->
+                    <div class="group w-48 grow relative hover:cursor-pointer">
+                        <img src="./images/image2.jpg" alt="" />
+                        
+                        <div class="flex justify-around bg-black/40 text-white duration-300 ease-in text-xs py-2 absolute bottom-0 left-0 right-0 opacity-0 group-hover:opacity-100">
+                            <div>
+                                <h3>Abstract Painting</h3>
+                                <span>245 Likes</span> . <span>35 shares</span>
+                            </div>
+                            <img src="./images/bookmark.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Image-3 -->
+                    <div class="group w-48 grow relative hover:cursor-pointer">
+                        <img src="./images/image3.jpg" alt="" />
+                        
+                        <div class="flex justify-around bg-black/40 text-white duration-300 ease-in text-xs py-2 absolute bottom-0 left-0 right-0 opacity-0 group-hover:opacity-100">
+                            <div>
+                                <h3>Abstract Painting</h3>
+                                <span>245 Likes</span> . <span>35 shares</span>
+                            </div>
+                            <img src="./images/bookmark.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Image-4 -->
+                    <div class="group w-48 grow relative hover:cursor-pointer">
+                        <img src="./images/image4.jpg" alt="" />
+                        
+                        <div class="flex justify-around bg-black/40 text-white duration-300 ease-in text-xs py-2 absolute bottom-0 left-0 right-0 opacity-0 group-hover:opacity-100">
+                            <div>
+                                <h3>Abstract Painting</h3>
+                                <span>245 Likes</span> . <span>35 shares</span>
+                            </div>
+                            <img src="./images/bookmark.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Image-5 -->
+                    <div class="group w-48 grow relative hover:cursor-pointer">
+                        <img src="./images/image5.jpg" alt="" />
+                        
+                        <div class="flex justify-around bg-black/40 text-white duration-300 ease-in text-xs py-2 absolute bottom-0 left-0 right-0 opacity-0 group-hover:opacity-100">
+                            <div>
+                                <h3>Abstract Painting</h3>
+                                <span>245 Likes</span> . <span>35 shares</span>
+                            </div>
+                            <img src="./images/bookmark.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Image-6 -->
+                    <div class="group w-48 grow relative hover:cursor-pointer">
+                        <img src="./images/image6.jpg" alt="" />
+                        
+                        <div class="flex justify-around bg-black/40 text-white duration-300 ease-in text-xs py-2 absolute bottom-0 left-0 right-0 opacity-0 group-hover:opacity-100">
+                            <div>
+                                <h3>Abstract Painting</h3>
+                                <span>245 Likes</span> . <span>35 shares</span>
+                            </div>
+                            <img src="./images/bookmark.svg" alt="">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
